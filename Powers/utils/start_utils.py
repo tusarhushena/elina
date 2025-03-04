@@ -43,33 +43,19 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
-                ("Bot Staffs 🚔", "give_bot_staffs"),
             ],
             [
                 ("📚 Commands & Help", "commands"),
-                ("Bot info 👾", "bot_curr_info"),
             ],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "Updates 📢",
+                    "https://t.me/DeadlineTechTeam",
                     "url",
                 ),
                 (
-                    "Owner ❤️",
-                    OWNER_ID,
-                    "user_id",
-                ),
-            ],
-            [
-                (
-                    "❗️ Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
-                    "url",
-                ),
-                (
-                    "Powered by ⚡️",
-                    f"https://{SUPPORT_CHANNEL}.t.me",
+                    "Support 💬",
+                    f"https://t.me/DeadlineTechSupport",
                     "url",
                 ),
             ],
